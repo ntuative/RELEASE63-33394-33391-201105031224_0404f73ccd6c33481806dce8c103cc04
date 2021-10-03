@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="bar" width="160" height="42" version="0.1" uid="605C14C1-BC62-86C5-E5C4-77517DB7108E">
+  <window>
+    <border x="0" y="0" width="160" height="42" params="1" style="6" name="border" color="0x0504c46" clipping="false">
+      <filters>
+        <DropShadowFilter distance="3" alpha="0.6"/>
+      </filters>
+      <children>
+        <region x="8" y="1" width="42" height="42" params="17" style="0" name="friendlist" treshold="0">
+          <children>
+            <bitmap x="0" y="0" width="42" height="42" params="0" style="0" name="icon">
+              <variables>
+                <var key="bitmap_asset_name" value="friendlist" type="String"/>
+              </variables>
+            </bitmap>
+          </children>
+        </region>
+        <region x="50" y="3" width="42" height="42" params="17" style="0" name="messenger" treshold="0">
+          <children>
+            <bitmap x="0" y="0" width="42" height="42" params="0" style="0" name="icon">
+              <variables>
+                <var key="bitmap_asset_name" value="messenger" type="String"/>
+              </variables>
+            </bitmap>
+          </children>
+        </region>
+        <container x="102" y="3" width="49" height="38" params="145" style="0" name="container" color="0x00" clipping="false">
+          <children>
+            <container x="0" y="0" width="49" height="38" params="16" style="0" name="wrapper" clipping="false">
+              <children>
+                <itemlist_horizontal x="24" y="0" width="0" height="38" params="4194320" style="0" name="list" clipping="false">
+                  <variables>
+                    <var key="spacing" value="1" type="int"/>
+                    <var key="scale_to_fit_items" value="true" type="Boolean"/>
+                    <var key="resize_on_item_update" value="true" type="Boolean"/>
+                  </variables>
+                </itemlist_horizontal>
+                <container_button x="0" y="7" width="24" height="24" params="17" style="3" name="button_left_page">
+                  <children>
+                    <icon x="7" y="7" width="10" height="10" params="16" style="2" color="0x0333333"/>
+                  </children>
+                </container_button>
+                <container_button x="24" y="7" width="24" height="24" params="81" style="3" name="button_right_page">
+                  <children>
+                    <icon x="7" y="7" width="10" height="10" params="16" style="3" color="0x0333333"/>
+                  </children>
+                </container_button>
+              </children>
+            </container>
+          </children>
+        </container>
+      </children>
+    </border>
+  </window>
+</layout>
